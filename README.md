@@ -1,14 +1,15 @@
-# Temporal Dependency Tree (TDT) Corpus
+# Crowdsourced English Temporal Dependency Tree (TDT) Corpus
 
-Temporal Dependency Tree Corpus is a collection of Chinese news reports and fairy tale stories annotated with time expressions, events, and temporal relations. Temporal relations in this corpus are represented as a dependency tree structure for each article. Detailed descriptions about Temporal Dependency Tree structures can be found in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
+The Crowdsourced English Temporal Dependency Tree (TDT) Corpus is a collection of English news articles annotated with time expressions, events, and temporal relations. Temporal relations in this corpus are represented as a dependency tree structure for each article. Detailed descriptions about Temporal Dependency Tree structures can be found in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
+
+This corpus is built upon the [Timebank corpus](http://www.timeml.org/timebank/timebank.html). And the temporal dependency tree annotations are collected through crowdsourcing. Details on our crowdsourcing approach can be found in [our paper](https://www.aclweb.org/anthology/S19-1019.pdf).
 
 ## Corpus Statistics
 
 
 |  | # Articles | # Sentences | # Time Expressions | # Events |
 | :---: | :---: | :---: | :---: | :---: |
-| **News Reports** | 115 | 2,841 | 1,167 | 4,807 |
-| **Fairy Tale Stories** | 120 | 3,662 | 131 | 10,976 | 
+| **News Articles** | 115 | 2,841 | 1,167 | 4,807 |
 
 All 120 fairy tale stories are from Chinese [Grimm Fairy Tales](https://www.grimmstories.com/zh/grimm-tonghua). 52 news reports are from [Chinese Treebank](https://catalog.ldc.upenn.edu/LDC2016T13), and 63 news reports are from Chinese [Wikinews](https://zh.wikinews.org). The train/dev/test data split in this repository is the split we used in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
 
