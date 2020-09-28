@@ -4,13 +4,7 @@ The Crowdsourced English Temporal Dependency Tree (TDT) Corpus is a collection o
 
 This corpus is built upon the [Timebank corpus](http://www.timeml.org/timebank/timebank.html). The temporal dependency tree annotations are collected through crowdsourcing. Details on our crowdsourcing approach can be found in [our paper](https://www.aclweb.org/anthology/S19-1019.pdf).
 
-## Corpus Statistics
-
-
-|  | # Docs | # Time Expressions | # Events | # Temporal Relations |
-| :---: | :---: | :---: | :---: | :---: |
-| **News Articles** | 183 | 1,414 | 2,691 | 4,105 |
-
+We also included a small subset of the Timebank corpus (i.e. the Timebank Dense corpus) annotated with temporal dependency trees by experts. ```timebank-dense.expert.tdt``` is expert TDT annotations on 36 documents of the Timebank Dense corpus. ```timebank.crowd.tdt``` is crowdsourced TDT annotations on the entire 183 documents of the Timebank corpus.
 
 ## Corpus Format
 
